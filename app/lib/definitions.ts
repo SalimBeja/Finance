@@ -95,4 +95,8 @@ export type InvoiceForm = {
   customer_id: string;
   amount: number;
   status: 'pending' | 'paid';
+  image_url?: string;
+  name: string;       // Add these properties if they are part of the invoice object
+  email: string;
+  date: string;       // Ensure 'date' matches the format you are using
 };
